@@ -1,0 +1,8 @@
+#python Arithematic code 
+print ("welcome to code")
+a= int(input("enter first number\n"))
+b= int(input("enter second number\n" ))
+
+print(f"sum of {a} and {b} is {a+b}")
+print(f"sum of {a} and {b} is {a-b}")
+print(f"sum of {a} and {b} is {a*b}")
