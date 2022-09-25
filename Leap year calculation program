@@ -1,0 +1,12 @@
+# Online Python compiler (interpreter) to run Python online.
+# Leap year calculation program
+def is_leap(year):
+    if year%4 == 0 and year%400==0:
+        # print("Leap")
+        return True
+    else:
+        # print("not leap")
+        return False
+    
+year = int(input())
+is_leap(year)
