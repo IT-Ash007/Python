@@ -6,3 +6,5 @@ b= int(input("enter second number\n" ))
 print(f"sum of {a} and {b} is {a+b}")
 print(f"sum of {a} and {b} is {a-b}")
 print(f"sum of {a} and {b} is {a*b}")
+print(f"sum of {a} and {b} is {a/b}") #Float division
+print(f"sum of {a} and {b} is {a//b}") #integer division
