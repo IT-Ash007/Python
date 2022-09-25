@@ -1,0 +1,9 @@
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+a= int(input())
+b= int(input())
+c= int(input())
+d= int(input())
+result=0
+if (1<=a<1000) and (1<=b<1000) and (1<=c<1000) and (1<=d<1000):
+    result=pow(a,b)+pow(c,d)
+    print(result)
