@@ -1,0 +1,5 @@
+print("Hello world")
+for i in range(6): #controls the number of rows
+    for j in range(1,i): #controls number of columns
+        print("*",end="") #to continue in same line within internal loop
+    print("\n") #to continue in outer loop
